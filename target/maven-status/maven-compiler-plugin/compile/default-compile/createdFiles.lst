@@ -1,0 +1,4 @@
+net\mineaqua\cmdSender\CmdSenderCommand.class
+net\mineaqua\cmdSender\CmdSenderPlugin.class
+net\mineaqua\cmdSender\JoinListener.class
+net\mineaqua\cmdSender\Messages.class

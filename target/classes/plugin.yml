@@ -1,0 +1,13 @@
+name: CmdSender
+version: 1.0.0
+main: net.mineaqua.cmdSender.CmdSenderPlugin
+author: Jaimexo
+commands:
+  cmdsender:
+    description: Administra la cola de comandos por jugador
+    usage: /cmdsender <add|list|clear> <jugador> [comando...]
+    permission: cmdsender.admin
+permissions:
+  cmdsender.admin:
+    default: op
+    description: Permite usar /cmdsender

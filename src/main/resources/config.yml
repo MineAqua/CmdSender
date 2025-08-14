@@ -1,0 +1,24 @@
+# Colors with &: &a &b &c ... and formats (&l bold, &o italic, &r reset)
+# You can use hex codes like &#55FFFF if you want (they convert automatically).
+
+prefix: "&6[CmdSender] &f"
+
+messages:
+  no-permission: "{prefix}&cYou do not have permission."
+  usage-header: "{prefix}&fUsage:"
+  usage-add: " &7/{label} add <player> <command...> &8- add command to execute when they join"
+  usage-list: " &7/{label} list <player> &8- list pending commands"
+  usage-clear: " &7/{label} clear <player> &8- clear pending commands"
+  placeholders-hint: " &8Placeholders: %player%, %uuid%"
+
+  player-not-found: "{prefix}&cCould not resolve player: &f{target}"
+  added: "{prefix}Added for &a{target}&7: &f{command}"
+  list-empty: "{prefix}No queued commands for &a{target}&7."
+  list-header: "{prefix}Queued commands for &a{target}&7 (&f{size}&7):"
+  list-line: " &7{index}) &f{command}"
+  clear-done: "{prefix}Queue cleared for &a{target}&7."
+
+  enabled: "{prefix}Enabled. Entries in queue: &f{total}&7."
+  exec-failed: "{prefix}&cFailed to execute command: &f{command}"
+  add-online-executed: "{prefix}&a{target}&7 is online: executed immediately → &f{command}"
+  add-online-exec-failed: "{prefix}&cCould not execute now for &a{target}&7: &f{command}"

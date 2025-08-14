@@ -1,0 +1,24 @@
+# Colores con &: &a &b &c ... y formatos (&l negrita, &o itálica, &r reset)
+# Puedes usar códigos hex tipo &#55FFFF si quieres (se convierten automáticamente).
+
+prefix: "&6[CmdSender] &f"
+
+messages:
+  no-permission: "{prefix}&cNo tienes permiso."
+  usage-header: "{prefix}&fUso:"
+  usage-add: " &7/{label} add <jugador> <comando...> &8- añade comando a ejecutar cuando entre"
+  usage-list: " &7/{label} list <jugador> &8- lista comandos pendientes"
+  usage-clear: " &7/{label} clear <jugador> &8- limpia comandos pendientes"
+  placeholders-hint: " &8Placeholders: %player%, %uuid%"
+
+  player-not-found: "{prefix}&cNo se pudo resolver el jugador: &f{target}"
+  added: "{prefix}Agregado para &a{target}&7: &f{command}"
+  list-empty: "{prefix}No hay comandos en cola para &a{target}&7."
+  list-header: "{prefix}Comandos en cola para &a{target}&7 (&f{size}&7):"
+  list-line: " &7{index}) &f{command}"
+  clear-done: "{prefix}Cola limpiada para &a{target}&7."
+
+  enabled: "{prefix}Habilitado. Entradas en cola: &f{total}&7."
+  exec-failed: "{prefix}&cFallo al ejecutar comando: &f{command}"
+  add-online-executed: "{prefix}&a{target}&7 está en línea: ejecutado inmediatamente → &f{command}"
+  add-online-exec-failed: "{prefix}&cNo se pudo ejecutar ahora para &a{target}&7: &f{command}"
